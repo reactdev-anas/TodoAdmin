@@ -125,7 +125,7 @@ function Todos() {
                <Button style={{
             background: theme == 'light' ?  '#9c27b0' : 'transparent',
             border: theme == 'light' ? 'none' : '1px solid #ffff',
-            color: theme == 'light' ? 'black' : '#ffff'
+            color: theme == 'light' ? '#ffff' : '#ffff'
           }} 
                  variant="contained" color='secondary' size='small' onClick={()=>editTodo(todo.id)}>
             Edit
