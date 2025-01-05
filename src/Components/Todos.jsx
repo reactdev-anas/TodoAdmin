@@ -78,7 +78,7 @@ function Todos() {
             style={{
             background: theme == 'light' ? '#ea80fc' : 'transparent',
             border: theme == 'light' ? 'none' : '1px solid #ffff',
-            color: theme == 'light' ? '#ffff' : '#ffff'
+            color: theme == 'light' ? 'black' : '#ffff'
           }} />
 
           <Button style={{
@@ -100,7 +100,9 @@ function Todos() {
               <input type='text' 
               value={editTodoText} 
               onChange={(e)=>setEditTodoText(e.target.value)}
-                style={{ color: theme == 'light' ? 'black': '#ffff'}}
+                style={{
+                  color: theme == 'light' ? 'black': '#ffff'
+                }}
               />
               <Button style={{
             background: theme == 'light' ?  '#9c27b0' : 'transparent',
@@ -123,7 +125,7 @@ function Todos() {
                <Button style={{
             background: theme == 'light' ?  '#9c27b0' : 'transparent',
             border: theme == 'light' ? 'none' : '1px solid #ffff',
-            color: theme == 'light' ? '#ffff' : '#ffff'
+            color: theme == 'light' ? 'black' : '#ffff'
           }} 
                  variant="contained" color='secondary' size='small' onClick={()=>editTodo(todo.id)}>
             Edit
