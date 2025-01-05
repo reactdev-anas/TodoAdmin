@@ -78,7 +78,7 @@ function Todos() {
             style={{
             background: theme == 'light' ? '#ea80fc' : 'transparent',
             border: theme == 'light' ? 'none' : '1px solid #ffff',
-            color: theme == 'light' ? 'black' : '#ffff'
+            color: theme == 'light' ? '#ffff' : '#ffff'
           }} />
 
           <Button style={{
