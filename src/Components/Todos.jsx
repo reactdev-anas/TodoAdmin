@@ -100,7 +100,7 @@ function Todos() {
               <input type='text' 
               value={editTodoText} 
               onChange={(e)=>setEditTodoText(e.target.value)}
-                style={{ color: theme == 'light' ? '#ffff': '#ffff'}}
+                style={{ color: theme == 'light' ? 'black': '#ffff'}}
               />
               <Button style={{
             background: theme == 'light' ?  '#9c27b0' : 'transparent',
